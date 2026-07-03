@@ -1,0 +1,99 @@
+/* Premium Dark Theme - Ableton/FL Studio Inspired */
+
+QMainWindow, QWidget {
+    background-color: #0d1117;
+    color: #e6edf3;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+QGroupBox {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    margin-top: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 0 5px;
+    color: #8b949e;
+}
+
+QPushButton {
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #21262d, stop:1 #161b22);
+    border: 1px solid #30363d;
+    border-radius: 4px;
+    color: #e6edf3;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #30363d;
+    border: 1px solid #8b949e;
+}
+
+QPushButton:pressed {
+    background-color: #0d1117;
+}
+
+QPushButton:disabled {
+    background-color: #0d1117;
+    color: #484f58;
+    border: 1px solid #21262d;
+}
+
+QTextEdit {
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 4px;
+    color: #e6edf3;
+    font-family: 'Consolas', 'Courier New', monospace;
+}
+
+QProgressBar {
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 4px;
+    text-align: center;
+    color: #e6edf3;
+}
+
+QProgressBar::chunk {
+    background-color: #58a6ff;
+    border-radius: 3px;
+}
+
+QComboBox, QSpinBox {
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 4px;
+    padding: 4px;
+    color: #e6edf3;
+}
+
+QComboBox:drop-down, QSpinBox::up-button, QSpinBox::down-button {
+    border-left: 1px solid #30363d;
+    background-color: #161b22;
+}
+
+QRadioButton {
+    color: #e6edf3;
+    spacing: 8px;
+}
+
+QRadioButton::indicator {
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    border: 1px solid #30363d;
+    background-color: #0d1117;
+}
+
+QRadioButton::indicator:checked {
+    background-color: #58a6ff;
+    border: 3px solid #0d1117;
+}

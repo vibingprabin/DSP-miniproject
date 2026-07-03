@@ -1,0 +1,7 @@
+numpy>=1.24
+scipy>=1.11
+sounddevice>=0.4.6
+PyQt6>=6.5
+pyqtgraph>=0.13.3
+pyautogui>=0.9.54
+matplotlib>=3.7   # optional: only used by test_stec.py to render result plots

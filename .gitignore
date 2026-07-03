@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.mpl/
+test_results/
+user_macros.json
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+
